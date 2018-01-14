@@ -1,3 +1,11 @@
+// Here we load the config.json file that contains our token and our prefix values. 
+
+const config = require("./config.json");
+
+// config.token contains the bot's token
+
+// config.prefix contains the message prefix
+
 client.on("ready", () => {
 
   // This event will run if the bot starts, and logs in, successfully.
