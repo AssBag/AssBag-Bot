@@ -1,4 +1,8 @@
-// Here we load the config.json file that contains our token and our prefix values. 
+npm install discord.js
+node app.js
+
+
+// Here we load the config.json file that contains our token and our prefix values.
 
 const config = require("./config.json");
 
@@ -6,7 +10,6 @@ const config = require("./config.json");
 
 // config.prefix contains the message prefix
 
-client.on("ready", () => {
 
   // This event will run if the bot starts, and logs in, successfully.
 
