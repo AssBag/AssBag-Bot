@@ -1,26 +1,4 @@
-const Discord = require('discord.js');
 
-const client = new Discord.Client();
-
-
-
-client.on('ready', () => {
-
-    console.log('I am ready!');
-
-});
-
-
-
-client.on('message', message => {
-
-    if (message.content === 'ping') {
-
-    	message.reply('pong');
-
-  	}
-
-});
 // Here we load the config.json file that contains our token and our prefix values. 
 
 const config = require("./config.json");
@@ -34,7 +12,6 @@ const config = require("./config.json");
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
 
-client.on("ready", () => {
 
   // This event will run if the bot starts, and logs in, successfully.
 
